@@ -13,4 +13,5 @@ gem 'redcarpet'
 
 group 'development' do
   gem 'shotgun'
+  gem 'thin'
 end

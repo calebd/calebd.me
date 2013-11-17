@@ -34,6 +34,7 @@ I am a driven software applications developer with experience in both back-end i
 - Design and development of “Capture the Flag” computer security training environment
 
 ### Christopher Newport University; September 07-April 11; Computer Science Tutor
+
 - Tutor first- and second-year students in Java and general Computer Science topics
 
 ## Education
