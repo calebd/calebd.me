@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'bundler'
+Bundler.require
+
 require 'sprockets'
 map '/assets' do
   sprockets = Sprockets::Environment.new

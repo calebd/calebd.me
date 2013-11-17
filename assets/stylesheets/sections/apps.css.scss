@@ -1,0 +1,24 @@
+$iconSize: 100px;
+
+#apps {
+	ul {
+		list-style-type: none;
+		@include clearfix;
+		
+		li {
+			text-align: center;
+			float: left;
+			width: 25%;
+			
+			img {
+				width: $iconSize;
+				height: $iconSize;
+				border: none;
+				display: block;
+				margin: 0 auto;
+				border-radius: $iconSize / 5;
+				margin-bottom: 0.75em;
+			}
+		}
+	}
+}

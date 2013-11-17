@@ -1,5 +1,45 @@
+@import "bourbon";
+@import "variables";
+
 body {
 	font-size: 16px;
+//	font-family: $helvetica;
+	font-family: 'HelveticaNeue-Light';
+	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	
+	&:visited {
+		color: $linkColor;
+	}
+	
+	&:hover {
+		color: $linkColorHighlighted;
+	}
+}
+
+.container {
+	margin: 4em auto;
+	width: 600px;
+}
+
+@import "sections/*";
