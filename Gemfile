@@ -10,8 +10,8 @@ gem 'sprockets-sass'
 gem 'sprockets'
 gem 'bourbon'
 gem 'redcarpet'
+gem 'thin'
 
 group 'development' do
   gem 'shotgun'
-  gem 'thin'
 end
