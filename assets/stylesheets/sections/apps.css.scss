@@ -1,3 +1,5 @@
+@import "variables";
+
 $iconSize: 100px;
 
 #apps {
@@ -9,6 +11,7 @@ $iconSize: 100px;
 			text-align: center;
 			float: left;
 			width: 25%;
+			margin-top: 1em;
 			
 			img {
 				width: $iconSize;
@@ -17,7 +20,14 @@ $iconSize: 100px;
 				display: block;
 				margin: 0 auto;
 				border-radius: $iconSize / 5;
-				margin-bottom: 0.75em;
+				margin-bottom: 0.5em;
+				box-shadow: 0 0 3px rgba(0,0,0,0.3);
+			}
+			
+			span {
+				color: $textColorLight;
+				font-weight: 400;
+				font-size: 0.85em;
 			}
 		}
 	}
