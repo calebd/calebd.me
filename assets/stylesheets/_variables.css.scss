@@ -1,4 +1,6 @@
-$linkColor: #4db2e7;
+$accentColor: #4db2e7;
+
+$linkColor: $accentColor;
 $linkColorHighlighted: darken($linkColor, 20%);
 
 $textColor: #222;

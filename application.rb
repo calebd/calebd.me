@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/content_for'
 
 get '/' do
-  erb :welcome
+  erb :home
 end
 
 get '/cv' do
