@@ -46,10 +46,8 @@ a {
 	margin: 4em auto;
 	width: 600px;
 	box-sizing: border-box;
-}
-
-@media screen and (max-width: 640px) {
-	.container {
+	
+	@media screen and (max-width: 640px) {
 		width: 100%;
 		margin: 4em 0;
 		padding: 0 1em;
