@@ -7,26 +7,28 @@ $iconSize: 100px;
 		list-style-type: none;
 		@include clearfix;
 		
+		.icon {
+			width: $iconSize;
+			height: $iconSize;
+			border: none;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 0.5em;
+		}
+		
+		.icon.ios {
+			border-radius: $iconSize / 5;
+			box-shadow: 0 0 2px rgba(0,0,0,0.2);
+		}
+		
 		li {
 			text-align: center;
 			float: left;
 			width: 25%;
 			margin-top: 1em;
 			
-			img {
-				width: $iconSize;
-				height: $iconSize;
-				border: none;
-				display: block;
-				margin: 0 auto;
-				border-radius: $iconSize / 5;
-				margin-bottom: 0.5em;
-				box-shadow: 0 0 3px rgba(0,0,0,0.3);
-			}
-			
 			span {
 				color: $textColorLight;
-				font-size: 0.85em;
 			}
 		}
 	}
