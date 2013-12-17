@@ -28,6 +28,11 @@ h1, h2, h3, strong {
 	font-weight: 400;
 }
 
+small {
+	font-size: 0.75em;
+	color: $textColorLight;
+}
+
 a {
 	color: $linkColor;
 	text-decoration: none;
