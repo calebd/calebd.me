@@ -4,7 +4,7 @@
 		<title><%= yield_content :title %></title>
 		<link rel="stylesheet" type="text/css" href="/assets/application.css">
 	</head>
-	<body>
+	<body id="page-<%= yield_content :page %>">
 		<%= yield %>
 	</body>
 </html>

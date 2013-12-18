@@ -1,0 +1,40 @@
+@import "pages/*";
+@import "variables";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+body {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0 auto;
+	padding: 0;
+	color: $textColorDark;
+	width: 600px;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:hover {
+		color: $linkColorHighlighted;
+	}
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+header {
+	margin: 2em 0;
+	font-size: 1.5em;
+	color: $textColorLight;
+	h1, h2 {
+		font-size: 1em;
+		display: inline-block;
+	}
+	h1, a, a:hover {
+		color: $textColorDark;
+	}
+}

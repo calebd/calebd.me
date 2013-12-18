@@ -2,9 +2,9 @@ require 'sinatra'
 require 'sinatra/content_for'
 
 get '/' do
-  markdown :home, layout_engine: :erb
+  erb :home
 end
 
-get '/cv' do
-  erb :cv
+get '/apps' do
+  erb :apps
 end
