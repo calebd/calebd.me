@@ -51,11 +51,11 @@ ul, ol, dl, p {
 }
 
 .container {
-    $width: 500px;
+    $width: 550px;
     $padding: 20px;
     
     width: $width;
-    margin: 3em auto;
+    margin: 4em auto;
     box-sizing: border-box;
     
     @media screen and (max-width: $width + $padding * 2) {

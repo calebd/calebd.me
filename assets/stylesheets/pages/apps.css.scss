@@ -17,12 +17,8 @@ $iconSize: 100px;
 			margin: 0 auto 0.5em auto;
 		}
         
-        .icon.soon, .icon.ios {
+        .icon.ios {
             border-radius: $iconSize / 4;
-        }
-        
-        .icon.soon {
-            border: 1px solid $textColorLight;
         }
 		
 		span {
@@ -37,7 +33,7 @@ $iconSize: 100px;
 		li {
 			text-align: center;
 			float: left;
-            width: 33%;
+            width: 25%;
 			margin-top: 1em;
 			
 			@media screen and (max-width: 540px) {
