@@ -1,0 +1,30 @@
+@import "variables";
+
+$avatarSize: 200px;
+
+#hero {
+    color: white;
+    background-color: $linkColor;
+    padding: 3em 0;
+    line-height: 1;
+    
+    .container {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    img {
+        width: $avatarSize;
+        height: $avatarSize;
+        border-radius: $avatarSize / 2;
+        margin-bottom: 2em;
+    }
+    
+    h1 {
+        margin: 0;
+    }
+    
+    p {
+        margin: 0.5em 0;
+    }
+}

@@ -4,6 +4,7 @@
 		<title><%= yield_content :title %></title>
 		<link rel="stylesheet" type="text/css" href="/assets/application.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= erb :gauges %>
 	</head>
 	<body id="page-<%= yield_content :page %>">
 		<%= yield %>
