@@ -1,5 +1,51 @@
 @import "variables";
+@import "bourbon";
 
-#page-apps {
-	
+$iconSize: 100px;
+
+#apps {
+	ul {
+		list-style-type: none;
+        color: $textColorLight;
+		@include clearfix;
+		
+		.icon {
+			width: $iconSize;
+			height: $iconSize;
+			border: none;
+			display: block;
+			margin: 0 auto 0.5em auto;
+		}
+        
+        .icon.soon, .icon.ios {
+            border-radius: $iconSize / 4;
+        }
+        
+        .icon.soon {
+            border: 1px solid $textColorLight;
+        }
+		
+		span {
+            color: inherit;
+			font-size: 0.8em;
+		}
+        
+        a {
+            color: inherit;
+        }
+		
+		li {
+			text-align: center;
+			float: left;
+            width: 33%;
+			margin-top: 1em;
+			
+			@media screen and (max-width: 540px) {
+				width: 33%;
+			}
+			@media screen and (max-width: 440px) {
+				width: 50%;
+			}
+		}
+	}
 }

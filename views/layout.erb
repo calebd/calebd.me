@@ -6,7 +6,10 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
     <%= erb :gauges %>
 	</head>
-	<body id="page-<%= yield_content :page %>">
+	<body>
 		<%= yield %>
+    <div id="copyright" class="container">
+      <p>Copyright &copy; 2013-<%= Time.now.year %> Caleb Davenport</p>
+    </div>
 	</body>
 </html>
