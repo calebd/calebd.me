@@ -4,13 +4,13 @@
 		<title><%= yield_content :title %></title>
 		<link rel="stylesheet" type="text/css" href="/assets/application.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-	    <%= erb :gauges %>
 		<%= erb :typekit %>
 	</head>
 	<body>
 		<%= yield %>
     <div id="copyright" class="container">
-      <p>Copyright &copy; 2013-<%= Time.now.year %> Caleb Davenport</p>
+      <p>Copyright &copy; <%= Time.now.year %> Caleb Davenport</p>
     </div>
+    <%= erb :gauges %>
 	</body>
 </html>
