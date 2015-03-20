@@ -1,0 +1,13 @@
+@import "variables";
+
+$avatarSize: 200px;
+
+#hero .container {
+    text-align: center;
+}
+
+#hero .avatar {
+    width: $avatarSize;
+    height: $avatarSize;
+    border-radius: $avatarSize / 2;
+}

@@ -8,9 +8,7 @@
 	</head>
 	<body>
 		<%= yield %>
-    <div id="copyright" class="container">
-      <p>Copyright &copy; <%= Time.now.year %> Caleb Davenport</p>
-    </div>
+    <%= erb :copyright %>
     <%= erb :gauges %>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-@import "pages/*";
+@import "sections/*";
 @import "variables";
 
 body {
@@ -46,11 +46,11 @@ p, ul, ol {
 .container {
     $width: 550px;
     $padding: 20px;
-    
+
     width: $width;
     margin: 4em auto;
     box-sizing: border-box;
-    
+
     @media screen and (max-width: $width + $padding * 2) {
         width: 100%;
         padding: 0 $padding;
