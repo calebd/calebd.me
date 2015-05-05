@@ -12,5 +12,17 @@
       <sparkle:releaseNotesLink>https://github.com/calebd/cloudy/releases/tag/v1</sparkle:releaseNotesLink>
       <enclosure url="https://github.com/calebd/cloudy/releases/download/v1/Cloudy.zip" sparkle:version="1" length="2299229" type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 1.1</title>
+      <description><![CDATA[
+        <ul>
+          <li>Add Sparkle for automatic updates</li>
+          <li>Switch to Developer ID</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 5 May 2015 03:24:00 +0000</pubDate>
+      <sparkle:releaseNotesLink>http://releases.io/calebd/cloudy/v2</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/calebd/cloudy/releases/download/v2/Cloudy.zip" sparkle:version="2" length="3000171" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
