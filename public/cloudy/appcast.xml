@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Cloudy Changelog</title>
+    <link>http://calebd.me/cloudy/appcast.xml</link>
+    <description>Most recent changes to Cloudy.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <description></description>
+      <pubDate>Wed, 29 April 2015 00:00:00 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/calebd/cloudy/releases/tag/v1</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/calebd/cloudy/releases/download/v1/Cloudy.zip" sparkle:version="1" length="2299229" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
