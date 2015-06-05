@@ -1,5 +1,15 @@
-<% content_for :page do %>welcome<% end %>
-<% content_for :title do %>Caleb Davenport<% end %>
+<% content_for :head do %><title>Caleb Davenport</title><% end %>
 
-<%= erb :hero %>
-<%= erb :about %>
+<section id="hero">
+  <div class="container">
+    <img class="avatar" src="/assets/avatar.jpg">
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <p>
+      Hi, I'm Caleb. I work at North in San Francisco. You can find me on <a href="https://twitter.com/calebd">twitter</a> and <a href="https://github.com/calebd">github</a>, or send me an <a href="mailto:caleb@calebd.me">email</a>.
+    </p>
+  </div>
+</section>

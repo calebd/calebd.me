@@ -1,0 +1,11 @@
+#about, #hero {
+  text-align: center;
+  margin: 4em 0;
+}
+
+#hero .avatar {
+  $avatarSize: 200px;
+  width: $avatarSize;
+  height: $avatarSize;
+  border-radius: $avatarSize / 2;
+}
