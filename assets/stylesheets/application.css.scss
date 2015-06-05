@@ -2,59 +2,39 @@
 @import "variables";
 @import "sections/*";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-	font-size: 20px;
-	font-weight: thin;
-	line-height: 1.6;
-	margin: 0;
-	padding: 0;
-	color: $textColorDark;
+  font-size: 20px;
+  font-weight: thin;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: $textColorDark;
 }
 
 a {
-	color: $linkColor;
-	text-decoration: none;
-	&:hover {
-		color: $linkColorHighlighted;
-	}
+  color: $linkColor;
+  text-decoration: none;
 }
 
-h1 {
-	font-size: 2em;
-}
-
-h2 {
-	font-size: 1.5em;
-}
-
-h3 {
-	font-size: 1.25em;
-}
-
-h1, h2, h3 {
-	margin: 0;
-}
-
-strong, h1, h2, h3 {
-	font-weight: bold;
-}
-
-p, ul, ol {
-    margin: 0 0 1.5em;
-    padding: 0;
+a:hover {
+  color: $linkColorHighlighted;
 }
 
 .container {
-    $width: 550px;
-    $padding: 20px;
+  $width: 600px;
+  $padding: 20px;
 
-    width: $width;
-    margin: 4em auto;
-    box-sizing: border-box;
+  width: $width;
+  margin: 0 auto;
+  padding: 0;
 
-    @media screen and (max-width: $width + $padding * 2) {
-        width: 100%;
-        padding: 0 $padding;
-        margin: 3em 0;
-    }
+  @media screen and (max-width: $width + $padding * 2) {
+      width: 100%;
+      padding: 0 $padding;
+      margin: 0;
+  }
 }
