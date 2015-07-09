@@ -24,5 +24,17 @@
       <sparkle:releaseNotesLink>http://releases.io/calebd/cloudy/v2</sparkle:releaseNotesLink>
       <enclosure url="https://github.com/calebd/cloudy/releases/download/v2/Cloudy.zip" sparkle:version="2" length="3000171" type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 1.2</title>
+      <description><![CDATA[
+        <ul>
+          <li>Adds support for OS X media keys</li>
+          <li>Cloudy no longer hides Overcast site navigation</li>
+        </ul>
+      ]]></description>
+      <pubDate>Thu, 9 July 2015 09:13:00 +0000</pubDate>
+      <sparkle:releaseNotesLink>http://releases.io/calebd/cloudy/v5</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/calebd/cloudy/releases/download/v5/Cloudy.zip" sparkle:version="5" sparkle:shortVersionString="1.2" length="3036465" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
